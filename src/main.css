@@ -1,0 +1,60 @@
+body {
+    line-height: 2;
+    background-color: aliceblue
+}
+
+.item {
+    
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    height: 300px;
+    width :300px;
+    background-image:url('~/src/img/item.png');
+    background-size: 300px 300px;
+    background-align: center;
+    margin: 20px;
+}
+
+.borders {
+    border-right-width: 15px;
+    border-right-color: gray;
+    border-left-width: 15px;
+    border-left-color: gray;
+    border-top-width: 15px;
+    border-top-color: gray;
+    border-bottom-width: 15px;
+    border-bottom-color: gray;
+}
+
+
+
+.badge {
+    margin-top: 5px
+}
+
+.toolbar {
+    right: 15px;
+    bottom: 5px;
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background-color: transparent;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.landing {
+    margin: 150px;
+}
